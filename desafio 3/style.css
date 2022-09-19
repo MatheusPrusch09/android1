@@ -1,0 +1,107 @@
+@charset "UTF-8";
+
+body{
+    background-color: aquamarine;
+    font-family: 'Times New Roman', Times, serif;
+    margin: auto;
+    border: 10px black;
+        box-shadow: 6px 7px 11px;
+}
+header{
+    background-image: linear-gradient(to top, darkgreen, green, lightgreen );
+    margin: 13px -2px 0px;
+
+    
+    
+    
+}
+header > h1{
+    margin: -11px;
+    padding: 0px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    height: 100px;
+    
+}
+header > h2{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-size: 13px;
+}
+nav{
+    margin: 0px;
+    padding: 10px;
+    box-shadow: 0px 7px 9px black;
+}
+nav >a {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 10px;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+nav > a:hover{
+    background-color: rgb(6, 46, 6);
+    color: green;
+    margin: 10px;
+
+    
+    
+}
+main{
+    background-color: white;
+    width: 600px;
+    margin: auto;
+    box-shadow: 10px 10px 10px;
+}
+img{
+    width: 500px;
+    padding: 10px 50px 10px;
+    margin: auto;
+}
+main > h1{
+    text-align: center;
+    color: green;
+    font-family: fantasy; 
+}
+main > h2{
+    text-align: justify;
+    background-image: linear-gradient(to right, lightgreen, white );
+    color: green;
+    font-family: fantasy;
+    margin: 10px;
+}
+p{
+    margin: 10px; 
+}
+main >iframe{
+    border-color: green;
+    padding: 0px;
+    margin: 9px 0px 10px;
+    border: 20px solid darkgreen;
+}
+aside {
+    text-align: center;
+    background-color:lightgreen;
+    border-radius: 10px;
+    padding: 10px;
+}
+aside > h3{
+    background-color: green;
+    color: white;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif
+    
+}
+aside > ol{
+    color: black;
+    display: inline-block;
+    text-align: justify;
+    margin: 10px 10px 10px;
+
+}
+

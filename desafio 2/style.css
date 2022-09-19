@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+/* @font-face {
+        font-family: depois baixar e colocar fonte;
+        src: url();
+    }
+}
+*/ 
+body {
+text-align: center;
+    background-image: linear-gradient(to right, #5C0627, #E15188, #DB0E5C,
+    #5C2138, #A80A47);
+}
+main {
+  
+    background-color: rgba(71, 15, 228, 0.774);
+    border-radius: 10%;
+    box-shadow: 10px 10px 30px;
+    width: 700px;
+    padding: 10%;
+    margin:auto; }
+
+h1 { 
+    text-align: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+    font: italic bolder 2em 'work sans', sans-serif;
+    color: rgb(45, 188, 207);
+    text-shadow: 10px 10px 15px black;
+}
+p {
+    text-align: center;
+    font: italic bolder 1em 'work sans', sans-serif;
+    color: rgb(0, 0, 0);
+    text-shadow: 10px 10px 15px black;
+}
+p#principal {
+    text-align: left;
+    font: italic bolder 1em 'work sans', sans-serif;
+    color: rgb(162, 240, 18);
+    text-shadow: 10px 10px 15px black;
+}

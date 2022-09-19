@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-bt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>treinando Div!</title>
+    <style>
+        div{
+            display: inline-block;
+            background-color: lightgreen;
+            border: 1px solid black;
+            height: 200px;
+            width: 200px;
+            font-size: 50px;
+            text-align: center;
+            padding: 50px;
+        }
+        div:hover  {
+            background-color: lightblue;
+        }
+        .d1>p {
+            display:none;
+            position: fixed;
+            
+        }
+        .d2>p {
+           
+            position: fixed;
+        }
+        .d3>p{
+           
+            position: fixed;
+        }
+       div:hover > p {
+        display: block;
+        color: white;
+        background-color: red;
+        
+        
+       }
+       a {
+     color: red;
+     font-size: 50px;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+       }
+       a:visited{
+        color: darkred;
+       }
+       a:hover{
+        color: black;
+        text-decoration: underline;
+       }
+       a:active {
+        color: yellow;
+       }
+       .especial{
+        background-color: lightcoral;
+       }
+       .especial::after{
+        content: '⇐';
+       }
+       .especial::before {
+content: '⇒';
+       }
+       h1{
+            background-color: lightblue;
+            height: 300px;
+            width: 300px;
+            border: 10px solid darkblue;
+            padding: 10px 10px 10px 50px;
+            margin: 10px 10px 10px 10px;
+            outline-width: 10px;
+            outline-style: outset;
+            outline-color: aqua;
+            
+
+        }
+       p{
+        position: relative;
+       }
+    </style>
+</head>
+<body>
+     <div class="d1">bloco 1<p>biluteteia</p></div>
+     <div class="d2">bloco 2 <p>kkk</p></div>
+     <div class="d3">bloco 3 <p>kkk</p></div>
+     <ol>
+      
+        <li> <a href="https://www.youtube.com/watch?v=4VX1P_X5ZvA" target="_blank" class="especial">meu canal do ytb</a></li>
+        <li><a href="https://www.youtube.com/watch?v=ETEg-SB01QY" target="_blank" class="especial">meu instagram</a></li>
+        <li><a href="https://www.youtube.com/watch?v=D7DVSZ_poHk" target="_blank" class="especial">meu facebook</a></li>
+     </ol>
+        <h1>Teste de caixa box-level</h1>
+
+</body>
+</html>
